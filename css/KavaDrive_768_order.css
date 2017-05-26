@@ -1,0 +1,239 @@
+*{
+	padding:0px;
+	margin :0px;
+}
+body{background-color:gray;}
+	.main
+	{
+		width:768px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height:710px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height:160px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width:69px;
+		height:69px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin:18px 0px 0px 18px;
+	}
+
+	.mainlogo
+	{
+		width:260px;
+		height:100px;
+		background-image:url('../img/Kava_Drive.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin:10px 255px 0px 0px;
+	}	
+	
+	.content
+	{
+		width:729px;
+		min-height:550px;
+		background-color:white;
+		margin-left:0px;
+		padding-left:14px;
+		padding-right:25px;
+		font-family:'Cuprum Regular', sans-serif;
+		font-size:20px;
+		line-height:1.5;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width:540px;
+		height:40px;
+		background-color:white;
+		margin-left:40px;
+		text-shadow:1px 1px 1px rgb(163,199,163);
+		color:rgb(0,132,0);
+		font-size:36px;
+		text-align:left;	
+	}
+	
+	.order
+	{
+		width:728px;
+		height:438px;
+		border: 3px solid rgb(0,132,0);
+		border-radius: 30px 0px 30px 0px;
+	}
+	.vmist
+	{
+		margin-left:37px;
+	}
+	.close
+	{
+		position:relative;
+		margin-top:-17px;
+		float:right;
+	}
+	.con_top
+	{
+		padding-top:10px;
+		margin-top:10px;
+		color:rgb(102,102,102);
+	}
+	
+	span
+	{
+		color:rgb(0,0,0);
+	}
+	#sum
+	{
+		color:rgb(102,102,102);
+	}
+	.choose
+	{
+		color:rgb(51,51,51 );
+	}
+	.how
+	{
+		width:500px;
+		display:inline-flex;
+		font-size:20px;
+		line-height:1;
+	}
+	.away
+	{
+		color:rgb(0,132,0);
+		width:160px;
+		margin-right:45px;
+	}
+	.away img, .reserve img
+	{
+		float:left;
+		margin-right:13px;	
+	}
+	.switch
+	{
+		width:62px;
+		background-image:url('../img/tumbler.gif');
+		background-repeat:no-repeat;
+		background-position:5px 10px;
+		margin-right:40px;
+	}
+	.switch img:active
+	{
+		margin-left:27px;
+	}
+
+	.reserve
+	{
+		color:rgb(153,153,153);
+	}
+
+	.con_foot
+	{
+		display:inline-flex;
+	}
+	.delo, .refresh
+	{
+		text-decoration:underline;
+		font-size:24px;
+		margin-top:16px;
+	}
+	.delo
+	{
+		margin-right:45px;
+		text-shadow: 1px 1px 1px rgb(255,226,226);
+	}
+	.refresh
+	{
+		text-shadow: 1px 1px 1px rgb(121,148,255);
+	}
+	.delo img, .refresh img
+	{
+		margin-right:10px;
+	}
+	.btn_submit
+	{
+		margin-left:147px;
+		width:217px;
+		height:65px;
+		border-radius:0px 0px 20px 0px;
+		box-shadow:2px 2px 4px 1px rgb(144,144,144);
+		color:white;
+		font-size:30px;
+		line-height:2;
+		text-align:center;
+		background-color:rgb(0,132,0);
+	}
+	.break1, .break2, .break3
+	{
+		background-color:rgb(224,178,224);
+		margin:15px 0px 15px -15px;
+		height:1px;
+		width:680px;
+	}
+	.footer
+	{
+		font-family: 'Cuprum Regular', sans-serif;
+		display:block;
+		width:100%;
+		height:140px;
+		/*min-height:calc(100vh - 700px);*/
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height:17px;
+	}
+	
+	.contacts 
+	{
+		height:55px;
+		margin-left:40px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		top:-34px;
+		text-decoration:none;
+		margin-left: 340px;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		margin:-25px 0px 0px -25px;
+	}
+	
+	.com_name
+	{
+		font-size:14px;
+		text-align:right;
+		margin-right: 20px;
+		margin-top: -35px;
+	}
