@@ -2,6 +2,257 @@
 	padding:0px;
 	margin :0px;
 }
+@media (min-width:1200px)
+{
+	body{background-color:gray;}
+	.main
+	{
+		width:1200px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 800px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height: 130px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width:69px;
+		height:69px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin:18px 0px 0px 18px;
+	}
+
+	.mainlogo
+	{
+		width:260px;
+		height:100px;
+		background-image:url('../img/Kava_Drive_red.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 10px 450px 0px 0px;
+	}	
+	
+	.content
+	{
+		width: 1160px;
+		min-height: 670px;
+		background-color:white;
+		padding-left: 40px;
+		font-family:'Cuprum Regular', sans-serif;
+		font-size:20px;
+		line-height:1.5;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width:540px;
+		height:40px;
+		background-color:white;
+		margin-left: 315px;
+		text-shadow:1px 1px 1px rgb(163,199,163);
+		color:rgb(0,132,0);
+		font-size: 45px;
+		text-align:left;
+	}
+	
+	.order
+	{
+		width: 1100px;
+		height: 554px;
+		border: 3px solid rgb(0,132,0);
+		border-radius: 30px 0px 30px 0px;
+	}
+	.vmist
+	{
+		margin-left:37px;
+		font-size: 30px;
+	}
+	.close
+	{
+		position:relative;
+		margin-top: -28px;
+		float:right;
+	}
+	.con_top
+	{
+		padding-top: 10px;
+		margin-top: 10px;
+		color:rgb(102,102,102);
+	}
+	
+	span
+	{
+		color:rgb(0,0,0);
+	}
+	#sum
+	{
+		color:rgb(102,102,102);
+	}
+	.choose
+	{
+		color:rgb(51,51,51 );
+	}
+	.how
+	{
+		width: 1000px;
+		display:inline-flex;
+		font-size: 30px;
+		line-height:1;
+	}
+	.away
+	{
+		color:rgb(0,132,0);
+		width: 269px;
+		margin-left: 134px;
+	}
+	.away img, .reserve img
+	{
+		float:left;
+		margin-right:13px;	
+	}
+	.switch
+	{
+		width:62px;
+		background-image:url('../img/tumbler.gif');
+		background-repeat:no-repeat;
+		background-position:5px 10px;
+		margin-right: 30px;
+		padding-right: 18px;
+	}
+	.switch img:active
+	{
+		margin-left:27px;
+	}
+
+	.reserve
+	{
+		width: 276px;
+		color:rgb(153,153,153);
+	}
+
+	.con_foot
+	{
+		width: 1040px;
+		display:inline-flex;
+	}
+	.delo, .refresh
+	{
+		text-decoration:underline;
+		font-size:24px;
+		margin-top:16px;
+	}
+	.delo
+	{
+		margin-right: 100px;
+		text-shadow: 1px 1px 1px rgb(255,226,226);
+		margin-left: 140px;
+	}
+	.refresh
+	{
+		margin-left: 130px;
+		margin-right: 45px;
+		text-shadow: 1px 1px 1px rgb(121,148,255);
+	}
+	.delo img, .refresh img
+	{
+		margin-right:10px;
+	}
+	.btn_submit
+	{
+		margin-left:147px;
+		width:217px;
+		height:65px;
+		border-radius:0px 0px 20px 0px;
+		box-shadow:2px 2px 4px 1px rgb(144,144,144);
+		color:white;
+		font-size:30px;
+		line-height:2;
+		text-align:center;
+		background-color:rgb(0,132,0);
+	}
+	.break1, .break2, .break3
+	{
+		background-color:rgb(224,178,224);
+		margin:15px 0px 15px -15px;
+		height:1px;
+		width: 1050px;
+	}
+	.footer
+	{
+		font-family: "Cuprum Regular", sans-serif;
+		display:block;
+		width:100%;
+		/*min-height:calc(100vh - 700px);*/
+		height:140px;
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height:17px;
+	}
+	
+	.contacts 
+	{
+		margin-left:40px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		margin-top:-34px;
+		text-decoration:none;
+		margin-left: 940px;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		margin-left: -20px;
+		width: 1160px;
+	}
+		.break img 
+	{
+		width:1160px;
+		height:1px;
+	}
+	
+	.com_name
+	{
+		font-size:14px;
+		text-align:right;
+		margin-right: 20px;
+		margin-top: -35px;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px)
+{
 body{background-color:gray;}
 	.main
 	{
@@ -50,7 +301,7 @@ body{background-color:gray;}
 		margin:10px 255px 0px 0px;
 	}	
 	
-	.content
+		.content
 	{
 		width:729px;
 		min-height:550px;
@@ -191,13 +442,14 @@ body{background-color:gray;}
 		height:1px;
 		width:680px;
 	}
+
 	.footer
 	{
-		font-family: 'Cuprum Regular', sans-serif;
+		font-family: "Cuprum Regular", sans-serif;
 		display:block;
 		width:100%;
-		height:140px;
 		/*min-height:calc(100vh - 700px);*/
+		height:140px;
 		background-color:rgb(51,51,51);
 		color:rgb(204,204,204);
 		font-size:24px;
@@ -212,14 +464,13 @@ body{background-color:gray;}
 	
 	.contacts 
 	{
-		height:55px;
 		margin-left:40px;
 	}
 	
 	.mail
 	{
 		position:relative;
-		top:-34px;
+		margin-top:-34px;
 		text-decoration:none;
 		margin-left: 340px;
 		color:rgb(204,204,204);
@@ -227,7 +478,7 @@ body{background-color:gray;}
 	
 	.break
 	{
-		margin:-25px 0px 0px -25px;
+		margin-left:-25px;
 	}
 	
 	.com_name
@@ -237,3 +488,519 @@ body{background-color:gray;}
 		margin-right: 20px;
 		margin-top: -35px;
 	}
+}
+
+@media (min-width:481px) and (max-width:767px)
+{
+	
+body{background-color:gray;}
+	.main
+	{
+		width: 640px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 620px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height: 110px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width: 66px;
+		height: 66px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin: 15px 0px 0px 15px;
+	}
+
+	.mainlogo
+	{
+		width:260px;
+		height:100px;
+		background-image:url('../img/Kava_Drive1.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 10px 145px 0px 0px;
+	}	
+	
+		.content
+	{
+		width: 610px;
+		min-height: 510px;
+		background-color:white;
+		margin-left:0px;
+		padding-left: 30px;
+		padding-right: 0px;
+		font-family:'Cuprum Regular', sans-serif;
+		font-size: 16px;
+		line-height:1.5;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width:540px;
+		height:40px;
+		background-color:white;
+		margin-left:40px;
+		text-shadow:1px 1px 1px rgb(163,199,163);
+		color:rgb(0,132,0);
+		font-size:36px;
+		text-align:left;	
+	}
+	
+	.order
+	{
+		width: 582px;
+		height: 407px;
+		border: 3px solid rgb(0,132,0);
+		border-radius: 30px 0px 30px 0px;
+	}
+	.vmist
+	{
+		margin-left:37px;
+	}
+	.close
+	{
+		position:relative;
+		margin-top: -12px;
+		float:right;
+	}
+	.con_top
+	{
+		padding-top:10px;
+		margin-top:10px;
+		color:rgb(102,102,102);
+	}
+	
+	span
+	{
+		color:rgb(0,0,0);
+	}
+	#sum
+	{
+		color:rgb(102,102,102);
+	}
+	.choose
+	{
+		color:rgb(51,51,51 );
+	}
+	.how
+	{
+		width:500px;
+		display:inline-flex;
+		font-size:20px;
+		line-height:1;
+	}
+	.away
+	{
+		color:rgb(0,132,0);
+		width:160px;
+		margin-right:45px;
+	}
+	.away img, .reserve img
+	{
+		float:left;
+		margin-right:13px;	
+	}
+	.switch
+	{
+		width:62px;
+		background-image:url('../img/tumbler.gif');
+		background-repeat:no-repeat;
+		background-position:5px 10px;
+		margin-right:40px;
+	}
+	.switch img:active
+	{
+		margin-left:27px;
+	}
+
+	.reserve
+	{
+		color:rgb(153,153,153);
+	}
+
+	.con_foot
+	{
+		display:inline-flex;
+	}
+	.delo, .refresh
+	{
+		text-decoration:underline;
+		font-size:24px;
+		margin-top:16px;
+	}
+	.delo
+	{
+		margin-right:45px;
+		text-shadow: 1px 1px 1px rgb(255,226,226);
+	}
+	.refresh
+	{
+		text-shadow: 1px 1px 1px rgb(121,148,255);
+	}
+	.delo img, .refresh img
+	{
+		margin-right:10px;
+	}
+	.btn_submit
+	{
+		margin-left: 50px;
+		width: 170px;
+		height: 49px;
+		border-radius:0px 0px 20px 0px;
+		box-shadow:2px 2px 4px 1px rgb(144,144,144);
+		color:white;
+		font-size: 21px;
+		line-height:2;
+		text-align:center;
+		background-color:rgb(0,132,0);
+	}
+	.break1, .break2, .break3
+	{
+		background-color:rgb(224,178,224);
+		margin:15px 0px 15px -15px;
+		height:1px;
+		width: 535px;
+	}
+
+	.footer
+	{
+		font-family: "Cuprum Regular", sans-serif;
+		display:block;
+		width:100%;
+		/*min-height:calc(100vh - 700px);*/
+		height:125px;
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height:17px;
+	}
+	
+	.contacts 
+	{
+		margin-left:40px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		margin-top:-34px;
+		text-decoration:none;
+		margin-left: 380px;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		margin-left:-25px;
+	}
+	.break img
+	{
+		width:605px;
+		height:1px;
+	}
+	.com_name
+	{
+		font-size:14px;
+		text-align:right;
+		margin-right: 20px;
+		margin-top: -35px;
+	}
+}
+
+@media (max-width:480px)
+{
+body{background-color:gray;}
+	.main
+	{
+		width:320px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 1065px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height: 115px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width: 57px;
+		height: 57px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin: 10px 0px 0px 10px;
+	}
+
+	.mainlogo
+	{
+		width: 209px;
+		height:100px;
+		background-image:url('../img/Kava_Drive_320.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 25px 40px 0px 0px;
+	}		
+	
+	.content
+	{
+		width: 310px;
+		min-height: 950px;
+		background-color:white;
+		margin-left:0px;
+		padding-left: 10px;
+		padding-right: 0px;
+		font-family:'Cuprum Regular', sans-serif;
+		font-size: 14px;
+		/* float: left; */ */
+		line-height:1.5;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width: 280px;
+		height: 90px;
+		background-color:white;
+		margin: 0px 0px  0px 21px;
+		text-shadow:1px 1px 1px rgb(163,199,163);
+		text-align: left;
+		color:rgb(0,132,0);
+		font-size: 36px;
+		 */
+		height:;
+		display: inline-block;
+	}
+	.bottom img
+	{
+		float:left;
+		display: inline-block;
+		width: 37px;
+		height: 35px;
+		margin: 10px 15px 10px 0px;
+	}
+	.order
+	{
+		width: 300px;
+		height: 795px;
+		border: 3px solid rgb(0,132,0);
+		border-radius: 30px 0px 30px 0px;
+	}
+	.vmist
+	{
+		margin-left: 15px;
+		font-size: 20px;
+	}
+	.close
+	{
+		position:relative;
+		margin-top: -13px;
+		float:right;
+	}
+	.con_top
+	{
+		padding-top:10px;
+		margin-top:10px;
+		color:rgb(102,102,102);
+	}
+	
+	span
+	{
+		color:rgb(0,0,0);
+	}
+	#sum
+	{
+		color:rgb(102,102,102);
+	}
+	.choose
+	{
+		color:rgb(51,51,51 );
+	}
+	.how
+	{
+		width: 235px;
+		height: 105px;
+		display: block;
+		font-size: 20px;
+		line-height:1;
+	}
+	.away
+	{
+		color:rgb(0,132,0);
+		width:160px;
+		margin: 0px 45px 15px 0px;
+	}
+	.away img, .reserve img
+	{
+		float:left;
+		margin-right:13px;	
+	}
+	.switch
+	{
+		display: none;
+		width:62px;
+		background-image:url('../img/tumbler.gif');
+		background-repeat:no-repeat;
+		background-position:5px 10px;
+		margin-right:40px;
+	}
+	.switch img:active
+	{
+		margin-left:27px;
+	}
+
+	.reserve
+	{
+		color:rgb(153,153,153);
+		margin: 10px 0px 0px 0px;
+	}
+
+	.con_foot
+	{
+		font-size: 24px;
+		display: inline-block;
+	}
+	.delo, .refresh
+	{
+		text-decoration:underline;
+		font-size:24px;
+		margin-top:16px;
+	}
+	.delo
+	{
+		text-shadow: 1px 1px 1px rgb(255,226,226);
+		width: 146px;
+		display: inline;
+	}
+	.refresh
+	{
+		margin-left: 10px;
+		display: inline;
+		width: 120px;
+		text-shadow: 1px 1px 1px rgb(121,148,255);
+	}
+	.delo img, .refresh img
+	{
+		margin-right:10px;
+	}
+	.btn_submit
+	{
+		float:right;
+		margin: 18px 10px 0px 0px;
+		width: 215px;
+		height: 65px;
+		border-radius:0px 0px 20px 0px;
+		box-shadow:2px 2px 4px 1px rgb(144,144,144);
+		color:white;
+		font-size: 30px;
+		line-height:2;
+		text-align:center;
+		background-color:rgb(0,132,0);
+	}
+	.break1, .break2, .break3
+	{
+		background-color:rgb(224,178,224);
+		margin: 15px 0px 15px 0px;
+		height:1px;
+		width: 260px;
+	}
+
+	.footer
+	{
+		font-family: 'Cuprum Regular', sans-serif;
+		display:block;
+		width:100%;
+		height: 250px;
+		/*min-height:calc(100vh - 700px);*/
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height: 25px;
+	}
+	
+	.contacts 
+	{
+		height: 120px;
+		margin-left: 34px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		top: 25px;
+		text-decoration:none;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		width: 300px;
+		margin: 33px 0px 0px -25px;
+	}
+	.break img
+	{
+		width:300px;
+		height:1px;
+	}
+	.lineTwo
+	{
+		width:300px;
+		height:1px;
+		background-color:gray;
+		margin:20px 0px 0px -25px;
+	}
+	.com_name
+	{
+		font-size:14px;
+		text-align: right;
+		margin: 15px 25px 0px 0px;
+	}
+}
