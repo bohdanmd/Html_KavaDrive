@@ -3,6 +3,153 @@
 	margin :0px;
 }
 
+@media (min-width:1200px)
+{
+
+body{background-color:gray;}
+	.main
+	{
+		width:1200px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 746px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height:160px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width:69px;
+		height:69px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin:18px 0px 0px 18px;
+	}
+
+	.mainlogo
+	{
+		width:260px;
+		height:100px;
+		background-image:url('../img/Kava_Drive_red.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 10px 510px 0px 0px;
+	}	
+	
+	.content
+	{
+		/* width:725px; */
+		/*min-height:700px;*/
+		text-align:justify;
+		background-color:white;
+		/* margin-left:0px; */
+		padding-left:13px;
+		padding-right: 20px;
+		font-family:"Cuprum Regular", sans-serif;
+		font-size:18px;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width:520px;
+		height:40px;
+		background-image:url('../img/barista.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		margin-left: 290px;
+		text-shadow:0px 0px 1px rgb(109,54,24);
+		color:rgb(109,54,24);
+		font-size:27px;
+		text-align: right;
+		text-transform:uppercase;
+	}
+	
+	.footer
+	{
+		font-family: 'Cuprum Regular', sans-serif;
+		display:block;
+		width:100%;
+		height:140px;
+		/*min-height:calc(100vh - 700px);*/
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height:17px;
+	}
+	
+	.contacts 
+	{
+		height:55px;
+		margin-left:40px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		top:-34px;
+		text-decoration:none;
+		margin-left: 830px;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		margin:-25px 0px 0px -25px;
+	}
+		.break img 
+	{
+		width:1160px;
+		height:1px;
+	}
+	.com_name
+	{
+		font-size:14px;
+		text-align:right;
+		margin-right: 20px;
+		margin-top: -35px;
+	}
+	
+	li
+	{
+		margin-left:25px;
+	}
+	
+	a
+	{
+		text-decoration:none;
+		margin-left: 0px;
+	}
+
+}
+
+@media (min-width:768px) and (max-width:1199px)
+{
+
 body{background-color:gray;}
 	.main
 	{
@@ -77,6 +224,7 @@ body{background-color:gray;}
 		color:rgb(109,54,24);
 		font-size:27px;
 		text-align:right;	
+		text-transform:uppercase;
 	}
 	
 	.footer
@@ -136,4 +284,297 @@ body{background-color:gray;}
 		text-decoration:none;
 		margin-left: 0px;
 	}
+}
 
+@media (min-width:481px) and (max-width:767px)
+{
+
+body{background-color:gray;}
+	.main
+	{
+		width:640px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 786px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height:152px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width: 66px;
+		height: 66px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin: 15px 0px 0px 15px;
+	}
+
+	.mainlogo
+	{
+		width:260px;
+		height:100px;
+		background-image: url('../img/Kava_Drive1.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 10px 205px 0px 0px;
+	}	
+	
+	.content
+	{
+		width: 612px;
+		text-align: left;
+		background-color:white;
+		margin-left:0px;
+		padding-left:13px;
+		padding-right: 15px;
+		font-family:"Cuprum Regular", sans-serif;
+		font-size: 16px;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width: 604px;
+		height:40px;
+		background-image:url('../img/barista.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		margin-left: 23px;
+		text-shadow:0px 0px 1px rgb(109,54,24);
+		color:rgb(109,54,24);
+		font-size: 30px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	.footer
+	{
+		font-family: 'Cuprum Regular', sans-serif;
+		display:block;
+		width:100%;
+		height: 125px;
+		/*min-height:calc(100vh - 700px);*/
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height:17px;
+	}
+	
+	.contacts 
+	{
+		/* height:55px; */
+		margin-left:40px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		top:-34px;
+		text-decoration:none;
+		margin-left: 380px;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		margin:-25px 0px 0px -25px;
+	}
+	.break img
+	{
+		width: 610px;
+		height: 1px;
+	}
+	.com_name
+	{
+		font-size:14px;
+		text-align:right;
+		margin-right: 20px;
+		margin-top: -35px;
+	}
+	
+	li
+	{
+		margin-left:25px;
+	}
+	
+	a
+	{
+		text-decoration:none;
+		margin-left: 0px;
+	}
+
+}
+
+@media (max-width:480px)
+{
+
+body{background-color:gray;}
+	.main
+	{
+		width:320px;
+		margin:0 auto;
+		/*border:1px solid black;*/
+	}
+	
+	.plank
+	{
+		position:absolute;
+		width:4px;
+		height: 1840px;
+		background-color:rgb(0,132,0);
+	}
+	
+	.header
+	{
+		height: 115px;
+		background-color:white;
+	}
+	
+	.menu
+	{
+		width: 57px;
+		height: 57px;
+		/*background-image:('../img/menu.gif');*/
+		background-color:rgb(0,132,0);
+		border-radius: 0px 0px 20px 0px;
+		float:left;
+		margin-left:4px;
+	}
+	#img_m
+	{
+		margin: 10px 0px 0px 10px;
+	}
+
+	.mainlogo
+	{
+		width: 209px;
+		height:100px;
+		background-image:url('../img/Kava_Drive_320.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		float:right;
+		margin: 25px 40px 0px 0px;
+	}	
+	
+	.content
+	{
+		width: 302px;
+		/*min-height:700px;*/
+		height:1725px;
+		text-align:left;
+		background-color:white;
+		margin-left:0px;
+		padding-left:13px;
+		padding-right: 5px;
+		font-family:"Cuprum Regular", sans-serif;
+		font-size: 20px;
+		text-shadow:0px 0px 1px #333333;
+	}
+	
+	.bottom
+	{
+		width: 250px;
+		height: 140px;
+		background-image:url('../img/barista.gif');
+		background-repeat: no-repeat;
+		background-color:white;
+		text-shadow:0px 0px 1px rgb(109,54,24);
+		color:rgb(109,54,24);
+		font-size: 30px;
+		text-align: center;
+		text-transform:capitalize;
+		margin-left: 16px;
+	}
+	
+	.footer
+	{
+		font-family: 'Cuprum Regular', sans-serif;
+		display:block;
+		width:100%;
+		height: 250px;
+		/*min-height:calc(100vh - 700px);*/
+		background-color:rgb(51,51,51);
+		color:rgb(204,204,204);
+		font-size:24px;
+		font-style:italic;
+		text-shadow:0px 0px 1px white;
+	}
+	
+	.inv
+	{
+		height: 25px;
+	}
+	
+	.contacts 
+	{
+		height: 120px;
+		margin-left: 34px;
+	}
+	
+	.mail
+	{
+		position:relative;
+		top: 25px;
+		text-decoration:none;
+		color:rgb(204,204,204);
+	}
+	
+	.break
+	{
+		width: 300px;
+		margin: 33px 0px 0px -25px;
+	}
+	.break img
+	{
+		width:300px;
+		height:1px;
+	}
+	.lineTwo
+	{
+		width:300px;
+		height:1px;
+		background-color:gray;
+		margin:20px 0px 0px -25px;
+	}
+	.com_name
+	{
+		font-size:14px;
+		text-align: right;
+		margin: 15px 25px 0px 0px;
+	}
+	
+	li
+	{
+		margin-left:25px;
+	}
+	
+	a
+	{
+		text-decoration:none;
+		margin-left: 0px;
+	}
+}
