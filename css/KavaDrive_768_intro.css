@@ -63,7 +63,7 @@ body{background-color:gray;}
 		/* margin-left:0px; */
 		padding-left:13px;
 		padding-right: 20px;
-		font-family:"Cuprum Regular", sans-serif;
+		font-family:"Cuprum", sans-serif;
 		font-size:18px;
 		text-shadow:0px 0px 1px #333333;
 	}
@@ -72,20 +72,27 @@ body{background-color:gray;}
 	{
 		width:520px;
 		height:40px;
-		background-image:url('../img/barista.gif');
+		/*background-image:url('../img/barista.gif');*/
 		background-repeat: no-repeat;
 		background-color:white;
 		margin-left: 290px;
+		margin-right:10px;
 		text-shadow:0px 0px 1px rgb(109,54,24);
 		color:rgb(109,54,24);
 		font-size:27px;
 		text-align: right;
 		text-transform:uppercase;
 	}
+	.bottom img
+	{
+		float:left;
+		width: 37px;
+		height: 35px;
+	}
 	
 	.footer
 	{
-		font-family: 'Cuprum Regular', sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		display:block;
 		width:100%;
 		height:140px;
@@ -207,16 +214,16 @@ body{background-color:gray;}
 		margin-left:0px;
 		padding-left:13px;
 		padding-right:30px;
-		font-family:"Cuprum Regular", sans-serif;
+		font-family:"Cuprum", sans-serif;
 		font-size:18px;
 		text-shadow:0px 0px 1px #333333;
 	}
 	
 	.bottom
 	{
-		width:520px;
+		width:560px;
 		height:40px;
-		background-image:url('../img/barista.gif');
+		/*background-image:url('../img/barista.gif');*/
 		background-repeat: no-repeat;
 		background-color:white;
 		margin-left:40px;
@@ -226,10 +233,15 @@ body{background-color:gray;}
 		text-align:right;	
 		text-transform:uppercase;
 	}
-	
+	.bottom img
+	{
+		float:left;
+		width: 37px;
+		height: 35px;
+	}
 	.footer
 	{
-		font-family: 'Cuprum Regular', sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		display:block;
 		width:100%;
 		height:140px;
@@ -345,7 +357,7 @@ body{background-color:gray;}
 		margin-left:0px;
 		padding-left:13px;
 		padding-right: 15px;
-		font-family:"Cuprum Regular", sans-serif;
+		font-family:"Cuprum", sans-serif;
 		font-size: 16px;
 		text-shadow:0px 0px 1px #333333;
 	}
@@ -354,7 +366,7 @@ body{background-color:gray;}
 	{
 		width: 604px;
 		height:40px;
-		background-image:url('../img/barista.gif');
+		/*background-image:url('../img/barista.gif');*/
 		background-repeat: no-repeat;
 		background-color:white;
 		margin-left: 23px;
@@ -364,10 +376,16 @@ body{background-color:gray;}
 		text-align: center;
 		text-transform: uppercase;
 	}
+	.bottom img
+	{
+		float:left;
+		width: 37px;
+		height: 35px;
+	}
 	
 	.footer
 	{
-		font-family: 'Cuprum Regular', sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		display:block;
 		width:100%;
 		height: 125px;
@@ -490,7 +508,7 @@ body{background-color:gray;}
 		margin-left:0px;
 		padding-left:13px;
 		padding-right: 5px;
-		font-family:"Cuprum Regular", sans-serif;
+		font-family:"Cuprum", sans-serif;
 		font-size: 20px;
 		text-shadow:0px 0px 1px #333333;
 	}
@@ -499,20 +517,29 @@ body{background-color:gray;}
 	{
 		width: 250px;
 		height: 140px;
-		background-image:url('../img/barista.gif');
+		/*background-image:url('../img/barista.gif');*/
 		background-repeat: no-repeat;
 		background-color:white;
 		text-shadow:0px 0px 1px rgb(109,54,24);
 		color:rgb(109,54,24);
 		font-size: 30px;
-		text-align: center;
+		text-align: left;
 		text-transform:capitalize;
 		margin-left: 16px;
+		display: inline-block;
+	}
+	.bottom img
+	{
+		float:left;
+		display: inline-block;
+		width: 37px;
+		height: 35px;
+		margin: 30px 15px 10px 0px;
 	}
 	
 	.footer
 	{
-		font-family: 'Cuprum Regular', sans-serif;
+		font-family: 'Cuprum', sans-serif;
 		display:block;
 		width:100%;
 		height: 250px;
